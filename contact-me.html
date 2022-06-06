@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+</head>
+<body>
+    <h3>My Contact Info</h3>
+    <p>(xxx) xxx-xxx</p>
+    <p>fakeEmail@gmail.com</p>
+
+    <hr/>
+
+    <h3>Wanna get in touch? Email Me!</h3>
+    <form action="mailto:fakeEmail@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label> <!-- the name/label of the input box -->
+        <input type="text" name="yourName" value=""> <!-- our input box -->
+
+        <br/>
+        <br/>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail" value="">
+
+        <br/>
+        <br/>
+        <label>Your Message:</label>
+        <br/>
+        <textarea name="yourMessage" rows="8" cols="30"></textarea> 
+        <!-- rows = how tall the text area should be; cols = how wide the text area should be -->
+
+        <br/>
+        <br/>
+        <input type="submit" name=""> <!-- the submit button -->
+    </form>
+    
+</body>
+</html>
